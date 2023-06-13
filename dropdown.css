@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    color: white;
+
+}
+.dropdown-content{
+     display: none;
+     position: absolute;
+     background-color: red;
+     min-width: 160px;
+     padding: 10px 15px;
+     z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+
+.busia{
+   color: white;
+   width: 400px;
+    height: 400px;
+    padding: 70px 40px;
+}
+.county{
+    display: none;
+     position: absolute;
+     background-color: white;
+     min-width: 160px;
+     padding: 10px 15px;
+     z-index: 1;
+     color: black;
+}
+.busia:hover .county {
+    display: block;
+    cursor: pointer;
+}
+
+
